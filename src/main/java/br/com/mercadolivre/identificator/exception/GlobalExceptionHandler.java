@@ -1,4 +1,4 @@
-package info.marceloweb.springbootexample.exception;
+package br.com.mercadolivre.identificator.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

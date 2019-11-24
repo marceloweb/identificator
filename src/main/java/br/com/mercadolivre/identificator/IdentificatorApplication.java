@@ -1,13 +1,13 @@
-package info.marceloweb.springbootexample;
+package br.com.mercadolivre.identificator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootExampleApplication {
+public class IdentificatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootExampleApplication.class, args);
+		SpringApplication.run(IdentificatorApplication.class, args);
 	}
 
 }
