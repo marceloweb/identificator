@@ -28,4 +28,7 @@ $ cd identificator/
 $ ./mvnw package && java -jar target/identificator-0.0.1-SNAPSHOT.jar
 ```
 
+## Pontos a melhorar 
 
+* Adicionar Secret manager
+* Código Java: retornos JSON
