@@ -32,3 +32,4 @@ $ ./mvnw package && java -jar target/identificator-0.0.1-SNAPSHOT.jar
 
 * Adicionar Secret manager
 * Código Java: retornos JSON
+* Cobertura e qualidade dos Testes
