@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ml-identificator-pod
+spec:
+  containers:
+    - name: container-java
+      image: marceloweb/ml-identificator:1.0
+      ports:
+         - containerPort: 8080
+

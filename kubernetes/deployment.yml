@@ -1,0 +1,16 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: ml-identificator-deployment
+spec:
+  template:
+    metadata:
+      labels:
+        name: ml-identificator-pod
+    spec:
+      containers:
+       - name: ml-identificator
+         image: marceloweb/ml-identificator:1.0
+         ports:
+           - containerPort: 8080
+
