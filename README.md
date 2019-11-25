@@ -2,8 +2,16 @@
 
 ## Versão acessível instalada no Google Cloud, usando Kubernetes:
 
+### GET Consulta DNA's
+
 ```terminal
 $ curl -i http://34.73.65.97:8080/api/v1/stats
+```
+
+### POST Cadastro de DNA's
+
+```terminal
+$ curl -i -H "Content-Type: application/json" -X POST http://34.73.65.97:8080/api/v1/simian -d '{"dna":[["D","C","C","C","C","Y"],["A","C","X","X","C","Y"],["B","A","Y","Y","Y","Y"],["A","C","Z","A","D","Y"],["C","D","X","A","A","Y"]]}'
 ```
 
 ## Instalação local via Docker
