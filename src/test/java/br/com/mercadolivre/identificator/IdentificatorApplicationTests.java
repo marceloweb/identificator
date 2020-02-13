@@ -1,6 +1,6 @@
-package br.com.mercadolivre.identificator;
+package info.marceloweb.identificator;
 
-import br.com.mercadolivre.identificator.model.Dna;
+import info.marceloweb.identificator.model.Dna;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package br.com.mercadolivre.identificator.model;
+package info.marceloweb.identificator.model;
 
 import org.json.JSONArray;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;

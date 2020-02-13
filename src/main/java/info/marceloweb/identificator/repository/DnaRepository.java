@@ -1,6 +1,6 @@
-package br.com.mercadolivre.identificator.repository;
+package info.marceloweb.identificator.repository;
 
-import br.com.mercadolivre.identificator.model.Dna;
+import info.marceloweb.identificator.model.Dna;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

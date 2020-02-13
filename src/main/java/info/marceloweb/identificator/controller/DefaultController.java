@@ -1,8 +1,8 @@
-package br.com.mercadolivre.identificator.controller;
+package info.marceloweb.identificator.controller;
 
-import br.com.mercadolivre.identificator.exception.ResourceNotFoundException;
-import br.com.mercadolivre.identificator.model.Dna;
-import br.com.mercadolivre.identificator.repository.DnaRepository;
+import info.marceloweb.identificator.exception.ResourceNotFoundException;
+import info.marceloweb.identificator.model.Dna;
+import info.marceloweb.identificator.repository.DnaRepository;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

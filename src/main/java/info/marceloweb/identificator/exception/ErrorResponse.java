@@ -1,4 +1,4 @@
-package br.com.mercadolivre.identificator.exception;
+package info.marceloweb.identificator.exception;
 
 import java.util.Date;
 
